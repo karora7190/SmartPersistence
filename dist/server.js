@@ -70,6 +70,9 @@ app.use(express.static(path.join(__dirname, "views"), { maxAge: 31557600000 }));
 /**
  * Primary app routes.
  */
+app.get("/loaderio-f077e1e710af6aec8b59d5f61dfe42d3.txt", function (req, res) {
+    res.sendfile("./loaderio-f077e1e710af6aec8b59d5f61dfe42d3.txt");
+});
 app.post("/signup", userController.postSignup);
 app.post("/saveSmartActions", persistenceController.savePersistenceModel);
 app.post("/getSmartActions", persistenceController.getPersistenceModel);
