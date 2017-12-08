@@ -42,6 +42,7 @@
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
+    "cors":"latest",
     "connect-mongo": "^1.3.2",
     "dotenv": "^2.0.0",
     "errorhandler": "^1.4.3",

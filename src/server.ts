@@ -13,7 +13,9 @@ import * as mongo from "connect-mongo";
 import * as flash from "express-flash";
 import * as path from "path";
 import * as mongoose from "mongoose";
+import * as cors from "cors";
 import expressValidator = require("express-validator");
+
 
 
 const MongoStore = mongo(session);
@@ -60,6 +62,7 @@ app.use(logger("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator());
+app.use(cors());
 // app.use(session({
 //   resave: true,
 //   saveUninitialized: true,
