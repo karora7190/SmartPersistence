@@ -18,6 +18,7 @@ exports.savePersistenceModel = (req, res, next) => {
                 if (err) {
                     return next(err);
                 }
+                res.setHeader("Access-Control-Allow-Origin", "*");
                 res.json({ "msg": "Persistence Model updated Successfully" });
             });
         }
@@ -33,6 +34,7 @@ exports.savePersistenceModel = (req, res, next) => {
                 if (err) {
                     return next(err);
                 }
+                res.setHeader("Access-Control-Allow-Origin", "*");
                 res.json({ "msg": "Persistence Model Saved Successfully" });
             });
         }
@@ -49,6 +51,7 @@ exports.getPersistenceModel = (req, res, next) => {
         }
         if (result) {
             console.log(result);
+            res.setHeader("Access-Control-Allow-Origin", "*");
             return res.json(result);
         }
     });
