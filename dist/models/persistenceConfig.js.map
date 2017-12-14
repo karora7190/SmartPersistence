@@ -1,0 +1,1 @@
+{"version":3,"file":"persistenceConfig.js","sourceRoot":"","sources":["../../src/models/persistenceConfig.ts"],"names":[],"mappings":";;AAAA,qCAAqC;AAMrC,MAAM,uBAAuB,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IAChD,WAAW,EAAG,MAAM;IACpB,eAAe,EAAE,OAAO;CACzB,EAAE,EAAE,UAAU,EAAE,IAAI,EAAE,CAAC,CAAC;AAGzB,MAAM,iBAAiB,GAAG,QAAQ,CAAC,KAAK,CAAC,mBAAmB,EAAE,uBAAuB,CAAC,CAAC;AACvF,kBAAe,iBAAiB,CAAC"}
